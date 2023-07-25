@@ -1,0 +1,538 @@
+
+@media only screen and (max-width: 1024px)
+{
+  .jumbotron
+  {
+    max-width: auto;
+  }
+
+  .navbar
+  {
+    max-width: auto;
+  }
+
+  .jumbotron .contest
+  {
+    max-width: 300px;
+  }
+
+  .contest h1
+  {
+    font-size: 30px;
+  }
+
+  .contest p
+  {
+    font-size: 17px;
+  }
+
+  .navbar-brand img
+  {
+    width: 90px;
+  }
+
+  .jumbotron img
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .switch
+  {
+    position:relative;
+    top: 3px;
+    left: 1px;
+  }
+}
+
+footer
+{
+  background: #FFFAFF;
+  padding: 40px;
+  transition: .5s;
+}
+
+footer a
+{
+  color: black!important;
+  transition: .5s;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon
+{
+  filter: invert(1);
+}
+
+section
+{
+  background-color: #e9ecef;
+  transition: .5s;
+}
+
+.switch
+{
+  position:relative;
+  top: 3px;
+  right: -1020px;
+}
+
+.navbar
+{
+  background-color: #FFFAFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: .5s;
+}
+
+.dropdown-item
+{
+  background-color: #FFFAFF;
+  color: black;
+  transition: .5s;
+}
+
+.contest
+{
+  margin: auto;
+  padding: auto;
+  color: black;
+  background-color: #FFFAFF;
+  height: 250px;
+  width: 1000px;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.mb-0
+{
+  font-size: 16px;
+  transition: .5s;
+}
+
+p
+{
+  color: black;
+  font-size: 20px;
+  transition: .5s;
+}
+
+h1,h2,h4
+{
+  color: black;
+  text-decoration: underline;
+  transition: .5s;
+}
+
+h3,h5,th,tr,li
+{
+  color: black;
+  transition: .5s;
+}
+
+body
+{
+  background-color: #e9ecef;
+  transition: .5s;
+}
+
+.contest2
+{
+  margin: auto;
+  padding: auto;
+  background-color: #FFFAFF;
+  height: 380px;
+  width: 999px;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+thead
+{
+  background-color: #6C464E;
+  transition: .5s;
+}
+
+td
+{
+  color: black;
+  transition: .5s;
+}
+
+.col-sm-8 li
+{
+  color: black;
+  transition: .5s;
+}
+
+table, th, td
+{
+  border: 2px solid black;
+  transition: .5s;
+}
+
+tbody
+{
+  background-color: #FFFAFF;
+  transition: .5s;
+}
+
+.dropdown-menu
+{
+  padding: 0;
+  transition: .5s;
+}
+
+.dropdown-item:hover
+{
+  background-color: #eee;
+  transition: .5s;
+}
+
+.nav-link
+{
+  color: black;
+  transition: .5s;
+}
+
+.col h2
+{
+  color: black;
+  transition: .5s;
+}
+
+.row h4
+{
+  color: black;
+  transition: .5s;
+}
+
+.numbertable th
+{
+  color: black;
+  transition: .5s;
+}
+
+.col h5
+{
+  color: black;
+  transition: .5s;
+}
+
+.row h5
+{
+  color: black;
+  transition: .5s;
+}
+
+.col p
+{
+  color: black;
+  font-size: 16px;
+  transition: .5s;
+}
+
+.list li
+{
+  color: black;
+  transition: .5s;
+}
+
+input[type=checkbox]
+{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label
+{
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after
+{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label
+{
+  background: var(--color-headings);
+  background-color: blue;
+}
+
+input:checked + label:after
+{
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+  background-color: white;
+}
+
+label:active:after
+{
+  width: 45px;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+.gotopbtn
+{
+  display: none;  
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: red;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.colorsidedropdown
+{
+  color: black;
+  transition: .5s;
+}
+
+.col-sm-8 h2
+{
+  color:black;
+  transition: .5s;
+}
+
+.dropdown-toggle
+{
+  color: black;
+  transition: .5s;
+}
+
+.urgences
+{
+  color: black;
+  transition: .5s;
+}
+
+.maternite
+{
+  color: black;
+  transition: .5s;
+}
+
+.nav-link:hover
+{
+  color: red;
+  transition: .5s;
+}
+
+.spanfa
+{
+  color: black;
+}
+
+.dropdown-menu.show, .open>.dropdown-menu
+{
+  background-color: #FFFAFF;
+}
+
+[data-theme="dark"] .dropdown-menu.show, .open>.dropdown-menu
+{
+  background-color: #212121;
+}
+
+[data-theme="dark"] .spanfa
+{
+  color: white;
+}
+
+[data-theme="dark"] .nav-link:hover
+{
+  color: red;
+}
+
+[data-theme="dark"] .urgences
+{
+  color: white;
+}
+
+[data-theme="dark"] .maternite
+{
+  color: white;
+}
+
+[data-theme="dark"] .colorsidedropdown
+{
+  color: white;
+}
+
+[data-theme="dark"] .dropdown-toggle
+{
+  color: white;
+}
+
+[data-theme="dark"] .col-sm-8 li
+{
+  color: white;
+}
+
+[data-theme="dark"] .col-sm-8 h2
+{
+  color:white;
+}
+
+[data-theme="dark"] .colorcollum
+{
+  color: white;
+}
+
+[data-theme="dark"] .dropdown-item:hover
+{
+  background-color: #191919;
+}
+
+[data-theme="dark"] footer
+{
+  background: black;
+}
+
+[data-theme="dark"] footer a
+{
+color: #f8f9fa!important}
+
+[data-theme="dark"] .carousel-control-next-icon,.carousel-control-prev-icon
+{
+  filter: invert(1);
+}
+
+[data-theme="dark"] section
+{
+  background-image: url(/images/background-dark.png);
+}
+
+[data-theme="dark"] .navbar
+{
+  background-color: #191919;
+}
+
+[data-theme="dark"] .dropdown-item
+{
+  background-color: #212121;
+  color: white;
+}
+
+[data-theme="dark"] .contest
+{
+  background-color: #151515;
+}
+
+[data-theme="dark"] p
+{
+  color: white;
+}
+
+[data-theme="dark"] h1,h2,h4,li
+{
+  color: white;
+}
+
+[data-theme="dark"] h3,h5,th,tr
+{
+  color: white;
+}
+
+[data-theme="dark"] body
+{
+  background-image: url(/images/background-dark.png);
+}
+
+[data-theme="dark"] .contest2
+{
+  background-color: #151515;
+}
+
+[data-theme="dark"] thead
+{
+  color: white;
+  background-color: black;
+}
+
+[data-theme="dark"] td
+{
+  color: white;
+}
+
+[data-theme="dark"] .nav-link
+{
+  color: white;
+}
+
+[data-theme="dark"] table, th, td
+{
+  border: 1px solid black;
+}
+
+[data-theme="dark"] tbody
+{
+  background-color: #151515;
+}
+
+[data-theme="dark"] .col h2
+{
+  color: white;
+}
+
+[data-theme="dark"] .row h4
+{
+  color: white;
+}
+
+[data-theme="dark"] .numbertable th
+{
+  color: white;
+}
+
+[data-theme="dark"] .col h5
+{
+  color: white;
+}
+
+[data-theme="dark"] .row h5
+{
+  color: white;
+}
+
+[data-theme="dark"] .col p
+{
+  color: white;
+}
+
+[data-theme="dark"] .list li
+{
+  color: white;
+}
+
+[data-theme]
+{
+  background-image: url(/images/background-dark.png);
+}
